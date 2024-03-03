@@ -33,6 +33,7 @@ function shuffleTowns() {
 	shuffleArray(towns);
 	$('#towns').append(towns);
 	$('#result').text("Towns shuffled.");
+}
 
 	function shuffleArray(array) {
 		for (var i = array.length - 1; i > 0; i--) {
